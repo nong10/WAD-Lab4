@@ -1,0 +1,101 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+html {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 110px auto 0 auto;
+}
+
+#div-table {
+  display: table;
+  table-layout: fixed;
+  margin: auto;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+#cell-left img {
+  padding-right: 25px;
+}
+
+#right-wrapper {
+  width: 502px;
+}
+
+#title-bar {
+  vertical-align: middle;
+}
+
+#title-bar img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#title-bar a {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-right: 8px;
+
+  background: linear-gradient(to bottom, #6792b2, #3f739b);
+  border-color: #234f70;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  
+  color: #f3f6f8;
+  text-decoration: none;
+}
+
+a img {
+  display: inline;
+}
+
+#description-box {
+  padding: 40px;
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+#description-box h2 {
+  color: #06365e;
+  margin: 20px 0 20px 0;
+  width: 80%;
+}
+
+#badges img {
+  margin-right: 10px;
+}
+
+#bottom-links {
+  color:#7398b5;
+}
+
+#bottom-links-wrapper {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#copyright {
+  color:#999999
+}
+
+strong {
+  font-weight: bold;
+}
